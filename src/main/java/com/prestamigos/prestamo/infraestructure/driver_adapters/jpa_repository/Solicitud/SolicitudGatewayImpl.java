@@ -25,7 +25,7 @@ public class SolicitudGatewayImpl implements SolicitudGateway {
 
         if (solicitud.getClienteId() != null) {
 
-            String url = "http://localhost:7000/api/prestamigos/cliente/" + solicitud.getClienteId();
+            String url = "https://usuario-production-3568.up.railway.app/api/prestamigos/cliente/" + solicitud.getClienteId();
 
 
             try {

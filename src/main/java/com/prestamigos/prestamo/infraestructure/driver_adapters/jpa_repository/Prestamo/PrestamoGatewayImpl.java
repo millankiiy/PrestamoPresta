@@ -26,7 +26,7 @@ public class PrestamoGatewayImpl implements PrestamoGateway {
         // Validar cliente y asignar vendedorId automáticamente
         if (prestamo.getClienteId() != null) {
 
-            String url = "http://localhost:7000/api/prestamigos/cliente/" + prestamo.getClienteId();
+            String url = "https://usuario-production-3568.up.railway.app/api/prestamigos/cliente/" + prestamo.getClienteId();
 
             try {
                 // Consumir microservicio cliente
